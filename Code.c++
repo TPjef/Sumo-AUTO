@@ -13,12 +13,12 @@ int speed2=120;//ความเร็วมอเตอร์ด้านซ้
 void setup() {
   pinMode(LS,INPUT);
   pinMode(RS,INPUT);
-  pinMode(PWM1,INPUT);
-  pinMode(RM1,INPUT);
-  pinMode(RM2,INPUT);
-  pinMode(PWM2,INPUT);
-  pinMode(LM1,INPUT);
-  pinMode(LM2,INPUT);
+  pinMode(PWM1,OUTPUT);
+  pinMode(RM1,OUTPUT);
+  pinMode(RM2,OUTPUT);
+  pinMode(PWM2,OUTPUT);
+  pinMode(LM1,OUTPUT);
+  pinMode(LM2,OUTPUT);
 }
 
 void loop() {
